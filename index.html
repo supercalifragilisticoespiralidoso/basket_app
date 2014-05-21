@@ -1,0 +1,222 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejemplo Practica 1 movil</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="principal" data-theme="b">
+	<div data-role="header">
+		<h1> Basketball </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Jordan" data-transition="flip"> Michael Jordan </a></li>
+            <li><a href="#LeBron" data-transition="pop"> LeBron James </a></li>
+			<li><a href="#Fotos" data-transition="slidedown"> FOTOS </a></li>
+		</ul>
+        <div data-role="content" align="justify">
+        <div align="center"	>
+        <a href="#Basket" data-rel="popup" data-position-to="window">
+        <img src="imagenes/576825_481373808598273_1595032827_n.jpg" alt="Skaret View" style="width:100px;"></a>	
+        <div data-role="popup" id="Basket">
+         <p>Esto es Basketball</p>
+         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/576825_481373808598273_1595032827_n.jpg" style="width:800px;height:500px;" alt="Skare View">
+         </div> 
+        </div>
+       
+       <p><center> This is Basketball <br>
+        ¿Facil?
+¿Quien dijo que seria facil? <br>
+En el basket tienes que entrenar,mejorar,esforzarte.<br>
+Tienes que dejar tu vida,no,tu alma! en la duela.<br>
+En cada entra a canasta,cada pase,cada dribleo,cada salto,<br>
+cada canasta...<br>
+Si no juegas con amor<br>
+¿Entonces para que juegas?<br>
+¿Quieres algo facil?<br>
+vete a jugar Futbol<br>
+¿Quieres un reto?<br>
+¡¡Juega Basketball!!<br>
+</center></p>
+<a href="#mypop" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> E-mail </a>
+ <div data-role="popup" id="mypop">
+ <p> val_velezdf@hotmail.com </p>
+  </div>
+  <a href="#mypopp" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> Facebook </a>
+  <div data-role="popup" id="mypopp">
+  <p>Vale Blake </p>
+  </div>
+	</div>
+        
+        <div data-role="content">
+    <div data-role="collapsible-set">
+    <div data-role="collapsible" data-collapsed="true">
+    <h1>Tenis</h1>
+    <a href="#Tenis" data-rel="popup" data-position-to="window">
+    <img src="imagenes/1379824_678677662193616_530413320_n.jpg" alt="Skaret View" style="width:100px;"></a>
+    
+    <div data-role="popup" id="Tenis">
+     <p>Tenis :3</p>
+     <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="imagenes/1379824_678677662193616_530413320_n.jpg" style="width:800px;height:500px;" alt="Skaret View">
+     </div>
+     </div>
+     </div>
+     </div>
+        
+        <div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="star"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div
+        
+        ></div>
+	</div>
+</div>
+
+<div data-role="page" id="Jordan" data-theme="b">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> Regresar </a>
+		<h1>Michael Jordan</h1>
+	</div>
+	<div data-role="content">		
+        <center><img src="imagenes/1959447_726285564082422_421803603_n.jpg" ></center>
+        <p><center>Michael Jeffrey Jordan (Brooklyn, 17 de febrero de 1963)<br>, conocido como Michael Jordan y apodado «Air» («Aire»), «His Royal Airness»<br> («Su Aireza Real»), «Air Jordan» y «The King» («El Rey»), es un exjugador <br>profesional de baloncesto estadounidense. En la actualidad, es el propietario<br> de los Charlotte Bobcats, franquicia de la NBA.2 Está considerado por la<br> mayoría de aficionados y especialistas como el mejor jugador de baloncesto de<br> todos los tiempos.3 Se retiró definitivamente en 2003, tras haberlo hecho en<br> dos ocasiones anteriores, en 1993 y 1999.
+
+Ganó seis anillos con Chicago Bulls, promediando 30,1 puntos por partido en<br> toda su carrera, el mayor promedio en la historia de la liga. También ganó<br> 10 títulos de máximo anotador, 5 MVP de la temporada, 6 MVP de las Finales<br>, nombrado en el mejor quinteto de la NBA en diez ocasiones, en el defensivo<br> nueve veces, líder en robos de balón durante tres años y un premio al mejor<br> defensor de la temporada.
+
+Desde 1983, ha aparecido en la portada de la prestigiosa revista deportiva<br> Sports Illustrated en 50 ocasiones, todo un récord, además de ser nombrado<br> "Deportista del Año" en 1991. Fue nombrado "mejor atleta del siglo XX" por<br> ESPN y segundo tras Babe Ruth por Associated Press.4</center></p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="alert"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div
+        
+        ></div>
+	</div>
+</div>
+
+<div data-role="page" id="LeBron" data-theme="b">
+	<div data-role="header">
+      <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> Regresar </a>
+		<h1> LeBron James </h1>
+	</div>
+	<div data-role="content">		
+        <center><img src="imagenes/1623669_710762005634778_1579753325_n.jpg" width="800" height="800" ><center>
+        <p><center>LeBron Raymone James (n. Akron, Ohio, 30 de diciembre de<br> 1984) es un jugador profesional de baloncesto estadounidense que pertenece a la<br> plantilla de Miami Heat.1 Mide 2,03 metros de estatura, y juega en la<br> posición de alero. Cuando James se proclamó 3 veces "Mr. Basketball" en Ohio<br> durante el instituto, y apenas cursaba su temporada sophomore en St. Vincent<br> - St. Mary, ya era considerado por los medios de comunicación como la futura<br> gran estrella de la NBA. Firmó un contrato de 90 millones de dólares con<br> Nike antes de debutar en la NBA. Con 18 años, James fue elegido en la primera<br> posición del Draft de la NBA de 2003 por Cleveland Cavaliers. Con los Cavs<br> ratificó el prometedor futuro que se labró durante su estancia en el<br> instituto, y en su primera temporada se llevó el Rookie del Año de la NBA. Desde<br> que llegara a la liga, LeBron ha registrado muchos récords de precocidad<br>, entre ellos el de jugador más joven de la historia en llegar a los 10.000<br>, 15.000 y 20.000 puntos.
+
+Desde 2005 ha sido All-Star (del que resultó dos veces MVP) y ha formado parte<br> de los Mejores Quintetos de la NBA, siendo elegido en seis ocasiones en el<br> Primer Quinteto. En la 2006, James terminó 2.º en la votación del MVP de<br> la NBA 2005-06. Su premio individual más importante llegó el 4 de mayo de<br> 2009, al ser nombrado MVP de la temporada 2008-09, galardón que ganaría también<br> en la temporada 2009-10, en la temporada 2011-12 (Esa misma temporada se<br> proclamó también como MVP de las Finales, tras vencer por 4-1 a los Oklahoma<br> City Thunder, obteniendo así su primer anillo de campeón) y en la actual<br> temporada 2012-13.2
+
+James, popularmente conocido como "The King", "King James" y "The Chosen One"<br>, lideró a los Cavaliers a sus primeras Finales de la NBA en 2007, donde<br> cayeron ante San Antonio Spurs. Desde los Playoffs de 2006, Cleveland ha estado<br> siempre presente en la fase final de la NBA.<br>
+
+Con la Selección de Estados Unidos consiguió la medalla de bronce en el Mundial<br> de Japón 2006, mientras que tanto en los Juegos Olímpicos de Pekín 2008<br> como en los Juegos Olímpicos de Londres 2012 se coronó como campeón olímpico<br>, teniendo como rival en ambas finales a la selección española.
+
+Con 2,03 metros de estatura, su posición es la de alero, pero su talento, <br>versatilidad y un poderoso físico le permite jugar tanto de base como de <br>ala-pívot.3 </center></p>
+    <div data-role="footer"data-position="fixed">
+		<div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="alert"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div
+        
+        ></div>
+	</div>
+</div>
+
+<div data-role="page" id="Fotos"  data-theme="b">
+	<div data-role="header">
+      <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> Regresar </a>
+		<h1> FOTOS </h1>
+	</div>
+	<div data-role="content">	
+		<center><img src="imagenes/1513679_705822606128718_788572803_n.jpg"> <center>
+       <center> <img src="imagenes/1506584_725810330796612_835112436_n.jpg" width="851" height="315"><center>
+       <center><img src="imagenes/1545153_499160920197333_1115199719_n.jpg" width="720" height="768" ><center>
+       <center><img src="imagenes/1964861_724918747552437_1871879554_n.jpg" width="500" height="387"><center>
+
+    </div>
+	<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconps="top">
+         <ul>
+           <li> <a href="#principal" data-transition="slide" data-icon="home"> INICIO </a> </li>
+           <li> <a href="#Ayuda" data-transition="flip" data-icon="alert"> AYUDA </a></li>
+           <li> <a href="#Contacto" data-transition="slidedown" data-icon="info"> CONTACTO </a></li>
+         </ul>
+        </div><h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Ayuda"  data-theme="b">
+	<div data-role="header">
+
+          <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Back</a>
+	</div>
+	<div data-role="content">	
+    <center><p><h1>Ayuda</h1></p></center>
+       <center> <img src="imagenes/amor.png" width="" height=""> </center>
+	</div>
+                  <p><center>
+                  Ser deportista es un orgullo,<br>
+                  pero ser Basketbolista...<br>
+                  Mierda es otro nivel<br></center></p>
+    
+	<div data-role="footer"  data-position="fixed">
+			<div data-role="navbar" data-iconpos="top">
+                <ul>
+     <li><a href="#principal" data-transition="slide" data-icon="home">INICIO</a>    </li>
+    <li><a href="#Ayuda" data-transition="fade" data-icon="alert">AYUDA</a>    </li>
+    <li><a href="#Contacto" data-transition="flip" data-icon="star">CONTACTO</a> </li>
+    </ul>
+            
+    		</div>
+	</div>
+</div>
+
+<div data-role="page" id="Contacto"  data-theme="b"
+>
+	<div data-role="header">
+          <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Contacto</a>
+	</div>
+	<div data-role="content">
+    <center><p><h1>Contactanos</h1></p></center>	
+       <center> <img src="imagenes/1939706_727293533981625_1873438360_n.jpg"> </center>
+	</div>
+    <p><center>Contactanos en Facebook:<br>
+    Valeria Blake<br>
+    <br>
+    Contactanos en Twitter:<br>
+    <br>
+    @Vale_Blake<br>
+    <br>
+    WhatsApp:<br>
+    <br>
+    5536741023
+    
+    
+	<div data-role="footer"  data-position="fixed">
+			<div data-role="navbar" data-iconpos="top">
+                <ul>
+     <li><a href="#principal" data-transition="slide" data-icon="home">INICIO</a>    </li>
+    <li><a href="#Ayuda" data-transition="fade" data-icon="alert">AYUDA</a>    </li>
+    <li><a href="#Contacto" data-transition="flip" data-icon="info">CONTACTO</a> </li>
+    </ul>
+    		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
